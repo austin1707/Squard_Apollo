@@ -1,0 +1,25 @@
+bypass DNA code.
+
+const layerConfigurations = [
+  {
+    growEditionSizeTo: 5,
+    layersOrder: [
+      { name: "01_background" },
+      { name: "02_deco" },
+      { name: "03_sign" },
+      { name: "04_2nd" },
+      { name: "05_3rd" },
+      { name: "06_4th" },
+    ],
+  },
+  {
+    growEditionSizeTo: 16,
+    layersOrder: [
+      { name: "01_background",
+          options: {
+            bypassDNA: true,}
+          },
+      { name: "04_2nd" },
+    ],
+  },
+];
